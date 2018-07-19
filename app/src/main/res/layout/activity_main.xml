@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="折线图" />
+
+    <Button
+        android:id="@+id/btn_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="柱状图" />
+
+
+    <Button
+        android:id="@+id/btn_pie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="饼状图" />
+
+    <Button
+        android:id="@+id/btn_horizontal_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="水平柱状图" />
+
+    <Button
+        android:id="@+id/btn_step_line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0-1图" />
+
+    <Button
+        android:id="@+id/btn_candle_stick_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蜡烛图" />
+
+    <Button
+        android:id="@+id/btn_box_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="箱形图" />
+
+    <Button
+        android:id="@+id/multi_btn_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多柱状图" />
+
+</LinearLayout>
